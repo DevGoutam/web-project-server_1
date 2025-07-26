@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-amber-400: oklch(82.8% 0.189 84.429);
+    --color-amber-800: oklch(47.3% 0.137 46.201);
     --color-white: #fff;
     --spacing: 0.25rem;
     --font-weight-bold: 700;
@@ -168,9 +169,6 @@
   .flex {
     display: flex;
   }
-  .h-2 {
-    height: calc(var(--spacing) * 2);
-  }
   .h-10 {
     height: calc(var(--spacing) * 10);
   }
@@ -182,9 +180,6 @@
   }
   .w-\[100vw\] {
     width: 100vw;
-  }
-  .w-full {
-    width: 100%;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -204,14 +199,14 @@
   .rounded-md {
     border-radius: var(--radius-md);
   }
-  .bg-\[\#030712\] {
-    background-color: #030712;
-  }
   .bg-\[\#302929\] {
     background-color: #302929;
   }
   .bg-amber-400 {
     background-color: var(--color-amber-400);
+  }
+  .bg-amber-800 {
+    background-color: var(--color-amber-800);
   }
   .p-30 {
     padding: calc(var(--spacing) * 30);
