@@ -3,7 +3,11 @@
 /* Here I am defining custom properties */
 @theme{
     --color-abcd-01: #BB9873;
-    --font-abcdFont:  "Bebas Neue", sans-serif;
+    --font-paraFont:  "Bebas Neue", sans-serif;
+     --font-headings: "Gabarito", sans-serif;
+     --color-bgColor-01:#030712;
+     --color-lightOrange-01:#DA6764;
+     --color-skyBlue-01:#55F4FF;
 }
  /* #custom color  */
    /*------------ you have to use like this -----------*/
