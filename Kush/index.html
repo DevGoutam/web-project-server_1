@@ -1,12 +1,162 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
         <link rel="stylesheet" href="../src/output.css">
+        <link rel="stylesheet" href="../src/font.css">
 </head>
 <body>
+    <!-- wrapper  -->
+    <div class="bg-bgColor-01 overflow-clip" id="main">
+     <!-- nav bar section   -->
+      <nav class="bg-bgColor-01/20 sticky top-0 z-10" >
+        <div class="relative  flex items-center justify-between w-11/12 max-w-[1157px] mx-auto pt-[20px] ">
+            <a href="#main"><img src="../img/logo.png" alt="" class="max-w-[80px] cursor-pointer" width="80px"></a>
+            <ul class="text-white lg:text-[1.1vw] md:text-[1.6vw] font-medium flex invisible decoration-none space-x-16  md:visible  ">
+                <a href="#main"><li class="hover:text-skyBlue-01 transition-all duration-200 ">Home</li></a>
+                <a href="#about"><li class="hover:text-skyBlue-01 transition-all duration-200 ">About Us</li></a>
+                <a href="#projects"><li class=" hover:text-skyBlue-01 transition-all duration-200">Projects</li></a>
+                <a href="#skills"><li class="hover:text-skyBlue-01 transition-all duration-200 ">Skills</li></a>
+                <a href="#blog"><li class=" hover:text-skyBlue-01 transition-all duration-200">Blog</li></a>
+                <a href="#contact"><li class=" hover:text-skyBlue-01 transition-all duration-200">Contact</li></a>
+            </ul>
+        </div>
+
+      </nav>
+
+      <!-- hero-section  -->
+       <section class="bg-bgColor-01 z-0" >
+        <div class="w-10/12 lg:w-[95%] max-w-[1080px] flex flex-col justify-between mx-auto items-center lg:flex-row mt-[40px]">
+
+                    <!-- left section  -->
+        <div class="text-white flex flex-col gap-5 ">
+            <h1 class="font-headings text-[40px]  md:text-[50px] lg:text-[60px]  font-bold w-11/12 lg:max-w-[450px]">We Build Web Experiences That Matter</h1>
     
+        <p class="text-[20px] text-gray-300  lg:max-w-[510px] mb-[20px]">A team of passionate full-stack developers crafting modern websites and real-world projects. Let’s turn ideas into reality — one line of code at a time.</p>
+        <!-- buttons -->
+        <div class="space-x-4"><a href="#projects"> <button class="py-[12px] px-[32px] border border-lightOrange-01 rounded-full h font-semibold cursor-pointer hover:bg-lightOrange-01 transition-all duration-200">View Projects</button> </a>
+            <!-- <button class="py-[12px] px-[32px] border border-skyBlue-01 rounded-full h font-semibold cursor-pointer hover:bg-skyBlue-01 transition-all duration-200"><a href="">Contact Us</a></button> -->
+        </div>
+            </div>
+            <!-- img right section  -->
+                 <img src="../img/hero-section-right.png" alt="" width="560
+                 " class="max-w-[560px] w-full">
+                 </div>
+ <!-- sec hero-section -->
+       <div class="w-10/12 lg:w-[95%] max-w-[1080px] flex flex-col-reverse justify-between mx-auto items-center lg:flex-row pb-[60px]">
+        <!-- left part -->
+        <img src="../img/hero-section-left.png" alt="" width="560" class="w-full max-w-[560px]">
+        <!-- right part -->
+        <div class="text-white flex flex-col gap-5 ">
+            <h2 class=" text-white font-headings text-[40px]  md:text-[50px] lg:text-[60px]  font-bold w-11/12 lg:max-w-[490px] ">Built by Passion. Driven by Code.</h2>
+            <p class="text-[20px] text-gray-300  lg:max-w-[490px]">We’re not just developers — we’re a team that cares about every pixel, every line of code, and every user experience. Whether it’s a portfolio, a product, or a problem to solve, we build it with purpose, creativity, and clean code.
+            Let’s turn ideas into something beautiful — together.</p>
+        </div>
+       </div>
+
+
+       </section>
+
+       <!-- about-section  -->
+        <section class="bg-bgColor-01 z-0" id="about" >
+<div class=" flex flex-col w-11/12 max-w-[1080px] justify-between items-center mx-auto lg:w-[95%] lg:flex-row bg-gray-400/20 px-8 pt-10 gap-10 ">
+    <!-- left -->
+     <div class="text-white text-center">
+        <h3 class="font-bold text-[30px] md:text-[50px] lg:text-[60px] max-w-[500px]">Code with a Plan</h3>
+        <img src="../img/about-section- left.png" alt="">
+     </div>
+     <!-- right  -->
+      <div class="text-white text-center">
+<h3 class="font-bold text-[30px] md:text-[50px] lg:text-[60px] max-w-[500px]">Project Planning & Collaboration</h3>
+<img src="../img/about-section- right.png" alt="">
+      </div>
+</div>
+        </section>
+
+        <!-- projects-sections   -->
+         <section class="bg-bgColor-01 z-0" id="projects">
+            <div class=" flex flex-col pt-[40px] w-11/12 max-w[1080px] mx-auto lg:w-[95%] justify-between items-center text-center  ">
+                <h3 class=" text-white font-bold text-[40px] md:text-[50px] lg:text-[60px] pb-[20px]">Projects</h3>
+                <!--project cards -->
+                <div class="max-w-[1080px] mx-auto  w-11/12 space-y-10">
+                    <!-- card 1 -->
+                    <div class=" w-full aspect-[12/5]   bg-gray-300/20 rounded-[36px]"></div>
+                    <!-- card 2 -->
+                    <div class=" w-full aspect-[12/5]   bg-gray-300/20 rounded-[36px]"></div>
+                    <!-- card 3 -->
+                    <div class=" w-full aspect-[12/5]   bg-gray-300/20 rounded-[36px]"></div>
+                </div>
+            </div>
+            
+         </section>
+
+         <!-- skills-section  -->
+          <section class="bg-bgColor-01 z-0" id="skills">
+            <div class=" flex flex-col w-11/12 max-w-[1080px] items-center mx-auto pt-[40px] lg:w-[95%] ">
+            <h3 class="text-white font-bold text-[40px] md:text-[50px] lg:text-[60px] pb-[20px]">Skills</h3>
+            <img src="../img/skills-icons.svg" alt="" width="1080" class="w-full" class="w-full max-w-[1080px]">
+            </div>
+          </section>
+
+          <!-- Blog-section   -->
+           <section class="bg-bgColor-01 z-0" id="blog">
+           <div class=" flex flex-col w-11/12 max-w-[1080px] items-center mx-auto pt-[40px] lg:w-[95%]">
+            <h2 class="text-white font-bold text-[40px] md:text-[50px] lg:text-[60px] pb-[20px]">Blog</h2>
+          <!-- blog-content -->
+               <div class="text-center space-y-10">
+                <!-- blog1  -->
+                <div>
+            <h3 class="text-skyBlue-01 font-bold text-[30px] md:text-[40px] lg:text-[50px] pb-[20px]">🔧 Tech Stack & Developer Notes</h3>
+            <p class="text-[20px] text-gray-300 ">Explore how we’ve engineered our project server using a powerful and modern web development stack. Every tool in our setup is chosen for performance, scalability, and developer experience.</p>
+            </div>
+       <!-- blog2 -->
+                <div>
+            <h3 class="text-lightOrange-01 font-bold text-[30px] md:text-[40px] lg:text-[50px] pb-[20px]">✨ Frontend Magic</h3>
+            <p class="text-[20px] text-gray-300 ">We built our interface using React and Next.js, styled with Tailwind CSS and Bootstrap. With TypeScript ensuring type safety and JavaScript as the foundation, our frontend is fast, clean, and maintainable.</p>
+            </div>
+                <!-- blog3 -->
+                <div>
+            <h3 class="text-lightOrange-01 font-bold text-[30px] md:text-[40px] lg:text-[50px] pb-[20px]">⚙️ Backend Power</h3>
+            <p class="text-[20px] text-gray-300 ">The backend runs on Node.js with Express, providing a lightweight yet powerful server. MongoDB handles our data storage with speed and flexibility, perfect for modern apps.</p>
+            </div>
+             <!-- blog4        -->
+                <div>
+            <h3 class="text-white font-bold text-[30px] md:text-[40px] lg:text-[50px] pb-[20px]">🚀 Deployment & Control</h3>
+            <p class="text-[20px] text-gray-300 ">We use Git and GitHub for version control and collaboration. With Vercel, deployments are instant, secure, and global — letting us focus on building, not managing servers.</p>
+            </div>
+       
+      
+            </div>
+           </div>
+         
+           </section>
+
+           <!-- contact-footer  -->
+            <footer class="bg-bgColor-01 z-0" id="contact">
+                <div class=" relative flex flex-col w-[100vw] mx-auto items-center mt-[80px] bg-gray-300/5 pt-10">
+                    <h4 class="text-gray-300/50 font-medium text-[10px] md:text-[20px] lg:text-[30px] pb-[20px]"> © 2025 web-Project Server. All rights reserved.</h4>
+                    <!-- photo pluse content -->
+                    <div class=" w-[90%] max-w-[1500px] flex justify-center items-center mx-auto">
+                    <img src="../img/footer-connect-box-img.png"  width="600" class="w-full max-w-[600px] hidden md:block lg:block">
+                    <!-- contect-id  -->
+                    <div class="text-center">
+                  <h3 class="text-white font-bold text-[20px] md:text-[30px] lg:text-[40px]">Contact</h3>
+                  <!-- contect-link -->
+                  <a href="https://github.com/DevGoutam" target="_blank" class="text-gray-300/50 font-medium text-[10px] md:text-[16px] lg:text-[26px] pb-[20px]">connect@projectserver.dev</a>
+                  <div class="flex justify-center  space-x-5 items-center">
+                    <a href="https://github.com/DevGoutam" target="_blank"><img src="../img/gitlogo.svg" alt=""  width="112"
+                    class=" w-full max-w-[60px] md:max-w-[80px] cursor-pointer "></a>
+                   <a href="https://github.com/DevGoutam" target="_blank"> <img src="../img/LinkedIn_icon.svg 1.svg" alt=""  width="77px"
+                    class=" cursor-pointer  w-full max-w-[40px] md:max-w-[60px]  "></a>
+              
+                  </div>
+                    </div>
+                    </div>
+                </div>
+
+            </footer>
+            </div>
 </body>
 </html>
