@@ -6,21 +6,189 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="../src/output.css">
+    <link rel="stylesheet" href="../src/font.css">
 </head>
 <body>
-    <nav class = "w-full h-2 bg-[#030712]">
-        <div>
-            <img src="./image/navBar.png" alt="">
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Projects</li>
-                <li>Skills</li>
-                <li>Blog</li>
-            </ul>
-        </div>
-    </nav>
 
+    <div class = "bg-[#030712] w-full overflow-x-hidden">
+        <!-- nav bar -->
+        <nav class = "w-full bg-[#030712]">
+            <div class = "flex items-center justify-between mx-auto max-w-[1157px]">
+                    <img src="./image/navBar.png" alt="" class = "w-[120px] h-[120px]">
+                    <ul class = "text-white font-sans space-x-16 text-[20px] hidden lg:flex">
+                        <li class = "hover:text-skyBlue-01">Home</li>
+                        <li class = "hover:text-skyBlue-01">About Us</li>
+                        <li class = "hover:text-skyBlue-01">Projects</li>
+                        <li class = "hover:text-skyBlue-01">Skills</li>
+                        <li class = "hover:text-skyBlue-01">Blog</li>
+                        <li class = "hover:text-skyBlue-01">Contact</li>
+                    </ul>
+                    <img src="./image/hamburger.png" alt="" class = "block lg:hidden">
+            </div>
+        </nav>
+
+        <!-- hero section -->
+        <div class = "max-w-[1089px] w-full mx-auto flex flex-col md:flex-row mt-14 px-4 gap-10 items-center">
+            <!-- left part -->
+                <div class = "max-w-[545px] w-full flex flex-col space-y-10">
+                <h1 class = "text-white font-bold text-3xl sm:text-5xl md:text-6xl leading-[100%]">
+                    We Build Web Experiences <br> That Matter
+                </h1>
+                <p class = "text-gray-300 text-base sm:text-lg md:text-2xl max-w-[493px] w-full">A Team Of Passionate Full-Stack Developers Crafting modern
+                    Webistes And Real-World Projects. Let's Turn Ideas Into Reality - One 
+                    Line Of Code At A Time.
+                </p>
+                <div class = "flex gap-3">
+                    <!-- left button -->
+                    <div class = "text-gray-200  text-lg sm:text-xl font-bold  border-[#AF4D47] border-[2px] max-w-[250px] rounded-full p-4 text-center">
+                        <a href="#">View Projects</a>
+                    </div>
+                    <div class = "text-gray-200 text-lg sm:text-xl font-bold border-[#1E7E91] border-[2px] max-w-[250px] rounded-full p-4 text-center">
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <!-- right button -->
+                </div>
+                </div>
+            <!-- right part -->
+            <div class = "max-w-[545px] w-full">
+                <img src="image/hero-section.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- sub-hero section -->
+        <div class = "max-w-[1089px] w-full mx-auto flex mt-14 flex-col-reverse md:flex-row items-center justify-center">
+                <!-- left part -->
+            <div>
+                <img src="./image/sub-hero-section.png" alt="">
+            </div>
+
+        <!-- right part -->
+            <div class = "max-w-[50%] w-full flex flex-col space-y-10">
+                <h1 class = "text-white font-bold text-3xl sm:text-5xl md:text-6xl leading-[100%] max-w-[490px]">
+                    Built By <br>
+                    Passion. Driven <br>
+                    By Code
+                </h1>
+                <p class = "text-gray-300 text-base sm:text-lg md:text-2xl max-w-[493px] w-full">
+                    We’re not just developers — we’re a team that
+                    cares about every pixel,every line of code, 
+                    and every user experience. Whether it’s a 
+                    portfolio, a product, or a problem to solve, 
+                    we build it with purpose, creativity, and 
+                    clean code. Let’s turn ideas into something 
+                    beautiful — together.
+                </p>
+            </div>
+
+        </div>
+
+        <!-- about section -->
+        <div class = "max-w-[1065px] w-full bg-[#78757530] flex flex-col md:flex-row mx-auto justify-evenly px-4 py-10 md:p-16 mt-16">
+
+            <!-- left part -->
+             <div class = "w-full max-w-[450px] space-y-4">
+                <div class = "pb-4"><h1 class = "text-white text-2xl sm:text-3xl md:text-4xl font-bold h-3 text-center">Code With A Plan</h1></div>
+                <div><img src="./image/About-sectionIMG-1.png" alt="" class = "h-auto w-full max-w-[415px] mx-auto"></div>
+                
+             </div>
+            <!-- right part -->
+              <div class = "w-full max-w-[450px] space-y-4">
+                <div class = "pb-4"><h1 class = "text-white text-2xl sm:text-3xl md:text-4xl font-bold h-3 pb-2.5 text-center">Project Planning & Collaboration</h1></div>
+                <div><img src="./image/About-sectionIMG-2.png" alt="" class = "h-auto w-full max-w-[415px] mx-auto"></div>
+                
+             </div>
+        </div>
+
+
+        <!-- project section -->
+        <div class = "flex flex-col space-y-7 items-center max-w-[1065px] w-full mx-auto mt-20">
+            <h1 class = "text-white text-6xl font-bold mb-16">Projects</h1>
+            <div class = "max-w-[1065px] w-full min-h-[300px]  md:min-h-[436px] bg-[#2525256B] rounded-3xl"></div>
+            <div class = "max-w-[1065px] w-full min-h-[300px]  md:min-h-[436px] bg-[#2525256B] rounded-3xl"></div>
+            <div class = "max-w-[1065px] w-full min-h-[300px]  md:min-h-[436px] bg-[#2525256B] rounded-3xl"></div>
+        </div>
+        
+
+        <!-- skills section -->
+        <div class = "max-w-[1066px] w-full mx-auto flex flex-col items-center mt-14 justify-between">
+            <h1 class = "text-white  text-base sm:text-3xl md:text-6xl font-bold sm:pb-12 md:pb-24">Skills</h1>
+            <img src="./image/skills.png" alt="" class="w-full max-w-[800px]">
+        </div>
+
+        <!-- blog section -->
+        <div class = "max-w-[991px] w-full flex flex-col mx-auto px-4 sm:px-8 md:px-10">
+            <h1 class = "text-white text-3xl sm:text-5xl md:text-7xl font-bold text-center py-10 sm:py-20">Blog</h1>
+
+              <div class="text-center px-2 sm:px-6 md:px-8 py-6 space-y-4">
+
+            <h1 class="text-2xl sm:text-4xl md:text-5xl text-skyBlue-01 font-bold">🔧 Tech Stack & Developer Notes</h1>
+                <p class="text-white text-base sm:text-xl md:text-2xl leading-8 px-4 sm:px-12">Explore how we’ve engineered our project
+                server using a powerful and modern web 
+                development stack. Every tool in our 
+                setup is chosen for performance, 
+                scalability, and developer experience.</p>
+            </div>
+
+        <div class="text-center px-2 sm:px-6 md:px-8 py-6 space-y-4">
+
+            <h1 class = "text-2xl sm:text-4xl md:text-5xl text-lightOrange-01 font-bold">✨ Frontend Magic</h1>
+                <p class = "text-white text-base sm:text-xl md:text-2xl leading-8 px-4 sm:px-12">We built our interface using React 
+                    and Next.js, styled with Tailwind 
+                    CSS and Bootstrap. With TypeScript
+                    ensuring type safety and JavaScript
+                    as the foundation, our frontend is 
+                    fast, clean, and maintainable.</p>
+            </div>
+
+       <div class="text-center px-2 sm:px-6 md:px-8 py-6 space-y-4">
+
+                <h1 class = "text-2xl sm:text-4xl md:text-5xl text-lightOrange-01 font-bold">⚙️ Backend Power</h1>
+                <p class = "text-white text-base sm:text-xl md:text-2xl leading-8 px-4 sm:px-12">The backend runs on Node.js with 
+                Express, providing a lightweight yet 
+                powerful server. MongoDB handles our 
+                data storage with speed and flexibility,
+                perfect for modern apps.</p>
+            </div>
+
+        <div class="text-center px-2 sm:px-6 md:px-8 py-6 space-y-4">
+
+           <h1 class = "text-2xl sm:text-4xl md:text-5xl text-white font-bold">🚀 Deployment & Control</h1>
+                <p class = "text-white text-base sm:text-xl md:text-2xl leading-8 px-4 sm:px-12">We use Git and GitHub for version 
+                control and collaboration. With Vercel, 
+                deployments are instant, secure, and 
+                global — letting us focus on building, 
+                not managing servers.</p>
+            </div>
+        </div>
+
+        <!-- footer section -->
+        <div class = "max-w-[1440px] w-full bg-[#9292920F] mx-auto flex flex-col">
+            <div>
+                <p class = "text-gray-400 text-lg sm:text-2xl md:text-4xl text-center pt-6 sm:pt-10 font-medium"> &#169 2025 Web-Project Server. All rights reserved.</p>
+            </div>
+
+            <div class = "flex flex-col lg:flex-row justify-evenly items-center py-10 space-y-10 lg:space-y-0">
+                <!-- left part -->
+                <div class="w-full max-w-[500px] px-4">
+                    <img src="./image/footer.png" alt="" class="w-full h-auto object-contain">
+                </div>
+
+                <!-- right part -->
+                <div class="flex flex-col max-w-[607px] w-full items-center space-y-6 px-4 text-center">
+                    <span class="text-white text-xl sm:text-2xl md:text-3xl">Contact</span>
+                    <span class="text-gray-400 text-lg sm:text-xl md:text-2xl font-medium"><a href="https://github.com/lavinachauhan">Connect@lavinachauhan</a></span>
+                    
+                    <!-- links for github and linkedIn -->
+                    <div class="flex space-x-6">
+                        <a href="https://www.linkedin.com/in/lavinachauhan/"><img src="./image/linkedIn.png" alt="" class="w-[50px] sm:w-[60px] md:w-[77px] h-auto"></a>
+                        <a href="https://github.com/lavinachauhan"> <img src="./image/github.png" alt="" class="w-[50px] sm:w-[60px] md:w-[77px] h-auto"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
 
 </body>
 </html>
